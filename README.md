@@ -55,8 +55,8 @@ N/A
 Created by Patrick McClelland, UC Berkeley Bootcamp Student
 
 ## Webpage Screenshot
-![Multiple Choice Quiz - Webpage Screenshot](ADD IMAGE HERE)
+![Multiple Choice Quiz - Webpage Screenshot](./assets/images/Quiz-Webpage-Screenshot.png)
 
 ## Link to Deployed Application
 To access the deployed application, please click the link below:
-ADD LINK TO DEPLOYED APPLICATION
+https://pmcclelland11.github.io/Multiple-Choice-Quiz/
