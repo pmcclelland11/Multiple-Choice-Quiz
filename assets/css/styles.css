@@ -9,6 +9,28 @@ body {
   background: #0e0230;
 }
 
+.start-container {
+  text-align: center;
+}
+
+#start-btn {
+  background: #0e0230;
+  color: white;
+  font-weight: 900;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0;
+}
+
+#clock {
+  padding-bottom: 20px;
+}
+
 .app {
   background: #fff;
   width: 90%;

@@ -9,14 +9,16 @@
 </head>
 
 <body>
-
+  
   <div class="app">
     <h1>Patrick's HTML Quiz</h1>
-    <p id="clock"><span id="timer">60</span> seconds remaining</p>
-    <div class="quiz">
+    <div class="start-container">
+      <button id="start-btn">Start Quiz</button>
+    </div>
+    <div class="quiz" style="display: none;">
+      <p id="clock"><span id="timer">60</span> seconds remaining</p>
       <h2 id="question">Question goes here</h2>
-      <div id="answer-buttons">
-      </div>
+      <div id="answer-buttons"></div>
       <button id="next-btn">Next Question</button>
     </div>
   </div>
