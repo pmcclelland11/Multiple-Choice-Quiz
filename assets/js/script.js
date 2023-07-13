@@ -214,5 +214,15 @@ nextButton.addEventListener("click", ()=>{
   }
 });
 
-// Run the quiz
-startQuiz();
+// Add click event listener to start button
+var startButton = document.getElementById("start-btn");
+var quizContainer = document.querySelector(".quiz");
+
+// Hide the quiz container initially
+quizContainer.style.display = "none";
+
+startButton.addEventListener("click", function () {
+  startButton.style.display = "none"; // Hide the start button
+  quizContainer.style.display = "block"; // Display the quiz container
+  startQuiz(); // Start the quiz
+});
