@@ -127,13 +127,17 @@ function startTimer() {
 function selectAnswer(event) {
   var selectedBtn = event.target;
   var isCorrect = selectedBtn.dataset.correct === "true";
+  var correctAudio = new Audio('assets/sounds/correct.wav');
+  var incorrectAudio = new Audio('assets/sounds/incorrect.wav');
 
   if(isCorrect) {
     selectedBtn.classList.add("correct");
     score++;
+    correctAudio.play();
   } else {
     selectedBtn.classList.add("incorrect")
     time -= 10;
+    incorrectAudio.play();
   }
 
   // Highlight correct answer
