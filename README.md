@@ -1,6 +1,6 @@
 # UC Berkeley Coding Bootcamp - Module 4 Challenge
 ## Multiple Choice Quiz
-Simple application that can be used to randomly generate a password (between 8-127) with custom character criteria. For this assignment, we were provided with the HTML and CSS source code, as well as the beginning of a JavaScript file that will be used to generate a random password for the user. We were required to write a function named generatePassword() that can perform this task. This assignment tested my knowledge of basic JavaScript and interacting with HTML elements.
+A simple quiz application created from HTML/CSS/JavaScript, that tests the user's knowledge of HTML. The user has 60 seconds to complete the quiz. If the user answers a question correctly, they gain 1 point. If they guess wrong, then 10 seconds is deduced from the time remaining. Utilizing localStorage, the user is able to store their initials and score into a highscore record - which is viewable after completing the quiz.
 
 ## Table of Contents 
 - [User Story](#user-story)
